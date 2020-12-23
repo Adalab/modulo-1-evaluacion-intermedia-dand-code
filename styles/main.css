@@ -65,7 +65,9 @@ body{
   
   @media all and (min-width: 768px){
     .container-header{
-        margin: 0 30px;
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 0 30px;
     }
 
     .header{
