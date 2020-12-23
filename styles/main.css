@@ -14,7 +14,6 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 
-
 /* HEADER */
 
 .header{
@@ -22,6 +21,13 @@ body{
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+    width: 100%;
+    position: fixed;
+    left:0;
+    right:0;
+    top: 30px;
+    z-index: 999;
+
 }
 .logo{
    width: 155px;
@@ -52,6 +58,8 @@ body{
 .main{
     background-color:var(--color-bg);
     height: 100vh;
+    position: relative;
+    top: 160px;
   }
 
   .text-main-title{
