@@ -13,9 +13,7 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 
-.container{
-    margin: 0 15px;
-}
+
 /* HEADER */
 
 .header{
@@ -65,3 +63,23 @@ body{
    color: var(--color-main);
   }
   
+  @media all and (min-width: 768px){
+    .container-header{
+        margin: 0 30px;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* main */
+    .text-main-title{
+        padding: 300px 50px;
+      }
+    .main-text{
+        font-size: 40px;
+    }
+  }
